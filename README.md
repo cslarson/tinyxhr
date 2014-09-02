@@ -27,5 +27,5 @@ tinyxhr("http://site.com/ajaxaction.json", function (err,data,xhr){
     console.log("goterr ",err,'status='+xhr.status); 
     console.log(data); console.log(JSON.parse(data));
   }
-}, 'POST', JSON.stringify({value:1}),'application/javascript');
+}, 'POST', JSON.stringify({value:1}), 'application/javascript');
 ```
