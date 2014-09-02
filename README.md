@@ -4,7 +4,11 @@ tinyxhr
 tinyxhr by Shimon Doodkin - licanse: public doamin - https://gist.github.com/4706967
 
 ```
-tinyxhr("http://site.com/ajaxaction", function (err,data,xhr){ 
+var xhr = require("tinyxhr");
+```
+
+```
+xhr("http://site.com/ajaxaction", function (err,data,xhr){ 
   if (err) {
     console.log("goterr ",err,'status='+xhr.status); 
     console.log(data);
@@ -13,7 +17,7 @@ tinyxhr("http://site.com/ajaxaction", function (err,data,xhr){
 ```
 
 ```
-tinyxhr("http://site.com/ajaxaction", function (err,data,xhr){ 
+xhr("http://site.com/ajaxaction", function (err,data,xhr){ 
   if (err) {
     console.log("goterr ",err,'status='+xhr.status);
     console.log(data);
@@ -22,7 +26,7 @@ tinyxhr("http://site.com/ajaxaction", function (err,data,xhr){
 ```
 
 ```
-tinyxhr("http://site.com/ajaxaction.json", function (err,data,xhr){ 
+xhr("http://site.com/ajaxaction.json", function (err,data,xhr){ 
   if (err) {
     console.log("goterr ",err,'status='+xhr.status); 
     console.log(data); console.log(JSON.parse(data));
