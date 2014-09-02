@@ -1,0 +1,25 @@
+{
+  "name": "tinyxhr",
+  "version": "0.0.1",
+  "description": "a tiny XMLHttpRequest library",
+  "main": "tinyxhr.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cslarson/tinyxhr.git"
+  },
+  "keywords": [
+    "ajax",
+    "xhr",
+    "tinyxhr",
+    "xmlhttprequest"
+  ],
+  "author": "Shimon Doodkin",
+  "license": "public domain",
+  "bugs": {
+    "url": "https://github.com/cslarson/tinyxhr/issues"
+  },
+  "homepage": "https://github.com/cslarson/tinyxhr"
+}
